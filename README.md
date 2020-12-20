@@ -1,7 +1,7 @@
 # Animated Responsive Header - Tailwind CSS v2
 Animated Responsive Header is a HTML template with a toggle button like bootstrap. I am using jquery for animation. 
 
-![Alt text](C:\Users\rezwa\Desktop\screenshot\Screen Shot 2020-12-20 at 23.51.09.png "a title")
+![Alt text](https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png)
 
  
 
