@@ -1,0 +1,135 @@
+<!-- 
+    Animated Responsive Header - Tailwind CSS v2
+    Fully modified by: Md. Rezwan Saki Alin
+    Date: 20-Dec-2020
+    Thanks to tailwindtoolbox for basic template 
+ -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Responsive Header - Tailwind CSS v2</title>
+    <link rel="stylesheet" href="css/tailwind.css" />
+</head>
+
+<body class="bg-green-100 font-sans leading-normal tracking-normal">
+
+    <!-- nav section -->
+    <nav
+        class="flex items-center justify-between flex-wrap bg-green-800 p-6 border-b-4 border-gray-800 fixed w-full z-10 top-0">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a class="text-green-100 no-underline hover:text-white hover:no-underline" href="#">
+                <span class="text-2xl pl-2"><i class="em em-grinning"></i> Brand</span>
+            </a>
+        </div>
+
+        <div class="nav-toggler block lg:hidden" data-target="#navigation">
+            <button id="nav-toggle"
+                class="flex items-center px-3 py-2 border rounded text-green-500 border-green-600 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="navigation" class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="mr-2">
+                    <a class="inline-block text-gray-900 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                        href="#">Home</a>
+                </li>
+                <li class="mr-2">
+                    <a class="inline-block text-gray-900 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                        href="#">About</a>
+                </li>
+                <li class="mr-2">
+                    <a class="inline-block text-gray-900 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                        href="#">Portfolio</a>
+                </li>
+                <li class="mr-2">
+                    <a class="inline-block text-gray-900 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
+                        href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- main section -->
+    <div class="mx-auto mt-20 px-4 py-4 md:mt-24 md:px-4">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam, pariatur laboriosam cum alias dolores
+            incidunt nesciunt consequuntur ducimus vitae. Adipisci fugiat eveniet unde voluptatem, hic voluptatum quia
+            sit accusantium, quisquam quidem ipsa placeat officiis ea similique culpa expedita. Labore tempora non
+            impedit obcaecati, quae eum perferendis illo amet consequuntur, nulla tempore consequatur ea aliquid
+            distinctio aut in deserunt a nostrum ratione fuga beatae. Ex cumque aspernatur praesentium illo reiciendis,
+            sunt excepturi quod! Repellat, molestiae vitae! Velit veritatis voluptate sed molestiae quo eveniet unde
+            esse laboriosam ut quod voluptatem consequuntur, aspernatur, quidem dignissimos pariatur reprehenderit
+            repellat reiciendis quae quam laborum. Nulla, id! Eveniet, inventore nam? Molestiae nam iusto explicabo
+            exercitationem blanditiis atque, soluta officia eaque ad voluptates voluptate fugiat dolores ex minima.
+            Commodi reprehenderit deserunt voluptatibus amet in itaque vitae enim adipisci? Pariatur voluptas ullam
+            recusandae molestias ipsam aliquid ab rerum. Neque voluptatem accusantium impedit, praesentium enim quod
+            explicabo labore modi, quisquam in vitae corrupti dicta itaque officiis a eius! Obcaecati mollitia quam
+            cumque consequuntur cupiditate, facilis rem nulla a, reprehenderit, modi dolor suscipit. Veritatis possimus
+            ratione assumenda quo molestiae sunt neque consequuntur quibusdam voluptatem asperiores saepe dolorum
+            incidunt accusamus maxime voluptates harum eveniet, illum maiores dicta similique esse obcaecati sapiente.
+            Quasi quia possimus consectetur aspernatur ipsum. Voluptatem atque aperiam inventore aut quis esse
+            consectetur modi eveniet, ad magni, saepe qui eos itaque, possimus quae hic laboriosam. Libero ipsa facere
+            voluptatibus cupiditate. Consectetur consequuntur explicabo ipsum qui atque culpa laborum magnam fugiat
+            ducimus, voluptates voluptatem beatae aspernatur fugit sint eum dolor possimus dicta inventore facilis
+            dolore sit nisi, sapiente nemo. Dignissimos dolore alias dolorem vel, nisi eum nulla molestias, debitis
+            reiciendis ratione ea earum consectetur praesentium expedita itaque sapiente voluptatum assumenda amet
+            nesciunt beatae voluptatem numquam facilis! Maxime earum iste sapiente quibusdam esse cum animi dolorum et
+            voluptatum, quidem similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam itaque nam
+            dolorum nesciunt porro iusto similique totam ratione nulla, fugiat dolorem ipsa maiores esse impedit
+            expedita sapiente nihil facere, iure vero vitae cupiditate repudiandae repellendus odit. Nemo possimus neque
+            debitis alias dolorem explicabo porro? Culpa ut, dolor qui, omnis nobis assumenda sit, fuga blanditiis
+            provident beatae minus modi maiores quam a mollitia laudantium ullam. Sed veritatis fuga qui asperiores et
+            quis quia eius quo, ut, nihil fugit possimus nam deserunt minima omnis, quisquam atque provident nemo illum
+            repellendus eaque rerum accusamus aliquid fugiat. Nobis praesentium possimus sint asperiores dolorum
+            temporibus ut laudantium pariatur odit inventore enim illo provident optio ipsam natus tenetur, animi cum
+            saepe? Accusantium ipsum fugiat magnam. Aperiam temporibus voluptate iusto odio doloremque exercitationem
+            cupiditate, explicabo eius tempora vero maxime molestias placeat vitae suscipit qui perferendis animi
+            corporis! Ullam odio hic aut modi libero doloremque impedit repudiandae dolor voluptatum aliquid consequatur
+            quaerat, nobis et alias nostrum numquam, a amet molestiae obcaecati laboriosam, perspiciatis perferendis
+            excepturi quam. Aliquid quidem laudantium aperiam maxime neque nemo doloribus officia dolores id, minus
+            magni molestias. Eum ipsum, voluptatem veniam in distinctio porro iusto dolorum saepe officia modi est quis
+            sapiente, nesciunt laborum natus! Aperiam vel quas qui veniam minus unde soluta mollitia voluptates quisquam
+            nemo esse consequuntur possimus illo modi nesciunt, ex alias dolorem inventore sunt accusamus libero atque
+            molestiae porro? Illo aspernatur quaerat error eius doloribus inventore, nostrum veritatis officiis hic
+            neque ad. Facilis illo tempora, dolore molestiae voluptate ea accusamus vero. Explicabo, quia reiciendis.
+            Nihil voluptates, minus officia quam quos asperiores fugiat officiis id tenetur soluta! Quibusdam, qui. Odio
+            porro doloribus beatae optio molestiae cum error odit voluptatibus illum pariatur accusantium, rem enim
+            autem reiciendis officia quisquam quas aut excepturi! Illo maxime voluptatum itaque minus magni blanditiis
+            beatae quaerat optio.
+        </p>
+    </div>
+
+    <!-- footer section -->
+    <div class="mx-auto py-2 bg-green-700">
+        <h3 class="text-center">Footer Section</h3>
+    </div>
+
+
+
+    <!-- jquery cdn and script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".nav-toggler").each(function (_, navToggler) {
+                var target = $(navToggler).data("target");
+                $(navToggler).on("click", function () {
+                    $(target).animate({
+                        height: "toggle",
+                    })
+                });
+            })
+        })
+    </script>
+
+</body>
+
+</html>
