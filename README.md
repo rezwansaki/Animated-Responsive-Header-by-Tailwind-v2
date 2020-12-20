@@ -1,12 +1,9 @@
 # Animated Responsive Header - Tailwind CSS v2
 Animated Responsive Header is a HTML template with a toggle button like bootstrap. I am using jquery for animation. 
 
-![](https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png)
-
+![Responsive Header](https://github.com/rezwansaki/Animated-Responsive-Header-by-Tailwind-v2/blob/main/screenshot.jpg)
  
-
-
-# How to use:
+## How to use:
     1. Copy this project and paste it another place
     2. Need to change the project name of my new project 
     3. run 'npm install' in the terminal 
@@ -16,8 +13,8 @@ Animated Responsive Header is a HTML template with a toggle button like bootstra
     7. Open new terminal and run 'npm run tw:prod' for production (to use as a final html template)
     8. Finally rename the public folder and use as a html template 
 
-# Md. Rezwan Saki Alin 
+## Md. Rezwan Saki Alin 
 https://www.alinsworld.com
 
-Thanks to tailwindtoolbox for basic template. 
+Thanks to [Tailwindtoolbox](https://www.tailwindtoolbox.com/) for basic template. </br>
 I got an idea from that basic template of tailwindtoolbox, then I work on it. I used jQuery.
