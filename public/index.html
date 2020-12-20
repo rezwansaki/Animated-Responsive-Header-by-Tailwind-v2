@@ -117,20 +117,18 @@
     <!-- jquery cdn and script -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-    <!-- <script>
-        $(document).ready(function () {
-            $(".nav-toggler").each(function (_, navToggler) {
-                var target = $(navToggler).data("target");
-                $(navToggler).on("click", function () {
-                    $(target).animate({
-                        height: "toggle",
-                    })
-                });
-            })
-        })
-    </script> -->
-
     <script>
+        // $(document).ready(function () {
+        //     $(".nav-toggler").each(function (_, navToggler) {
+        //         var target = $(navToggler).data("target");
+        //         $(navToggler).on("click", function () {
+        //             $(target).animate({
+        //                 height: "toggle",
+        //             })
+        //         });
+        //     })
+        // })
+
         document.getElementById('nav-toggler').onclick = function () {
             document.getElementById("navigation").classList.toggle("hidden");
         }
