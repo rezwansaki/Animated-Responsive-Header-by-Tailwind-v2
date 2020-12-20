@@ -1,6 +1,9 @@
 # Animated Responsive Header - Tailwind CSS v2
 Animated Responsive Header is a HTML template with a toggle button like bootstrap. I am using jquery for animation. 
 
+## Problem:
+    1. 'toggle' method of jQuery doesn't work properly. I remove jquery and stop the animation. I will try to solve this later. 
+
 ![Responsive Header](https://github.com/rezwansaki/Animated-Responsive-Header-by-Tailwind-v2/blob/main/screenshot.jpg)
  
 ## How to use:
