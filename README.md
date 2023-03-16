@@ -19,5 +19,7 @@ Animated Responsive Header is a HTML template with a toggle button like bootstra
 ## Md. Rezwan Saki Alin 
 https://www.alinsworld.com
 
+Date: 21-Dec-2020
+
 Thanks to [Tailwindtoolbox](https://www.tailwindtoolbox.com/) for basic template. </br>
 I got an idea from that basic template of tailwindtoolbox, then I work on it. I used jQuery.
